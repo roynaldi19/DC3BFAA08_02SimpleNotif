@@ -12,7 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BFAA08_03SimpleNotif">
         <activity
-            android:name="com.roynaldi19.dc3_08simplenotif.MainActivity"
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
