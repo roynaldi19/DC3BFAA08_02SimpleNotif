@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.roynaldi19.bfaa08_03simplenotif">
+    package="com.roynaldi19.dc3_08simplenotif">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BFAA08_03SimpleNotif">
         <activity
-            android:name=".MainActivity"
+            android:name="com.roynaldi19.dc3_08simplenotif.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

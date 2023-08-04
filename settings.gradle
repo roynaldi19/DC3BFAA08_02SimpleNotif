@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "BFAA08_03SimpleNotif"
+rootProject.name = "DC3_08SimpleNotif"
 include ':app'

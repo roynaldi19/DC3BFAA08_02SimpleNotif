@@ -1,4 +1,4 @@
-package com.roynaldi19.bfaa08_03simplenotif
+package com.roynaldi19.dc3_08simplenotif
 
 import org.junit.Test
 
