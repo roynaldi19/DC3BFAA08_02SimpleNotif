@@ -1,5 +1,6 @@
 package com.roynaldi19.dc3_08simplenotif
 
+import android.Manifest
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
@@ -22,9 +23,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-//        if (Build.VERSION.SDK_INT >= 33){
-//            requestPermissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
-//        }
+        if (Build.VERSION.SDK_INT >= 33){
+            requestPermissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
+        }
 
         val title = getString(R.string.notification_title)
         val message = getString(R.string.notification_message)
